@@ -26,7 +26,7 @@ def scrape_headlines(url):
 
 
 def main():
-    print("===== 🌐 Interactive Web Scraper =====")
+    print("=====  Interactive Web Scraper =====")
     while True:
         url = input("\nEnter website URL (or type 'exit' to quit): ")
         if url.lower() == "exit":
